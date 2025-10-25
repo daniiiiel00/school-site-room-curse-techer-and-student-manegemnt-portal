@@ -1,0 +1,61 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h2{
+    text-align: center;
+}
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+/* Content section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Optional: Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+}
