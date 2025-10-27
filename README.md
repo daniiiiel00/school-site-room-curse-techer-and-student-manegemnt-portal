@@ -90,8 +90,6 @@ For WAMP: www
 
 Start Apache and MySQL
 
-Visit:
-👉 http://localhost/school-management-portal
 
 
 | Role    | Default Username | Default Password |
